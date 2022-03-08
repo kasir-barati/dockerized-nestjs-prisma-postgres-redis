@@ -2,6 +2,11 @@
 
 Dockerize NestJS, Prisma project which needs redis and postgresql
 
+## Build image
+
+- `docker build -f dev.Dockerfile . -t temp:1`
+- In most cases for me failed
+
 ## Why .npmrc?
 
 Because most of times I got this error:
